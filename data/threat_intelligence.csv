@@ -1,0 +1,15 @@
+indicator,indicator_type,threat_type,confidence,status,description,source,first_seen
+203.0.113.45,ip,Brute-force / credential stuffing,High,verified,Synthetic record: source of repeated credential-guessing against VPN gateways,SYNTHETIC_DEMO_FEED,2026-09-02
+192.0.2.88,ip,Network scanner,Medium,verified,Synthetic record: mass port scanning of internet-facing hosts,SYNTHETIC_DEMO_FEED,2026-08-19
+198.51.100.77,ip,Data exfiltration staging server,High,verified,Synthetic record: server used to receive bulk data uploads,SYNTHETIC_DEMO_FEED,2026-10-04
+198.51.100.23,ip,Suspicious proxy / VPN exit,Low,unverified,"Synthetic record: community-reported anonymizing proxy, not confirmed",SYNTHETIC_DEMO_FEED,2026-10-28
+203.0.113.99,ip,Possible botnet node,Medium,unverified,Synthetic record: single unconfirmed report,SYNTHETIC_DEMO_FEED,2026-11-01
+192.0.2.200,ip,Spam relay,Low,verified,Synthetic record: known spam relay (unrelated to this demo's incidents),SYNTHETIC_DEMO_FEED,2026-07-14
+198.51.100.155,ip,Adware ad network,Low,unverified,Synthetic record: unconfirmed reputation hit; frequently a false positive,SYNTHETIC_DEMO_FEED,2026-10-30
+data-drop.example,domain,Data exfiltration,High,verified,Synthetic record: file-drop domain used in data theft,SYNTHETIC_DEMO_FEED,2026-10-04
+c2-beacon.example,domain,Command and control,High,verified,Synthetic record: command-and-control domain contacted by malware,SYNTHETIC_DEMO_FEED,2026-09-21
+free-dyndns-test.example,domain,Suspicious dynamic DNS,Low,unverified,"Synthetic record: dynamic DNS domain, unconfirmed",SYNTHETIC_DEMO_FEED,2026-10-11
+phish-login-portal.example,domain,Phishing,High,verified,Synthetic record: credential phishing page,SYNTHETIC_DEMO_FEED,2026-08-30
+75619ad6488883c88139f25ebe5a8072e941768d0c23df5a1b944e28930707a5,hash,Trojan (credential stealer),High,verified,"Synthetic record: SHA-256 of a fabricated demo sample, not a real malware hash",SYNTHETIC_DEMO_FEED,2026-10-12
+e04ddcb5a0815c681d295a8c4d0d0e89,hash,Possible dropper,Low,unverified,"Synthetic record: MD5 of a fabricated string, unconfirmed",SYNTHETIC_DEMO_FEED,2026-10-25
+7a2a70da3d85c49fdc7a83210e9f837efcfbad964b44d835310c4d52a5b8b115,hash,Ransomware,High,verified,Synthetic record: fabricated demo hash,SYNTHETIC_DEMO_FEED,2026-09-09
